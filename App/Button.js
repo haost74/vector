@@ -27,6 +27,8 @@ class Button  extends React.Component {
     });
   }
 
+  
+
   getParam(){
       var data = {from:fromDate.value};
     Axios.post('/endpoint', data)
