@@ -14,11 +14,11 @@ export default class App extends React.Component {
       <div>
        <div className={styles.app}>
           <Inp name="От:" val="fromDate"/>
-          <Inp name="До:"/>
+          <Inp name="До:" val="toDate"/>
           <Combobox/>
           <Btn name="Получить"/>
         </div>
-        <div>
+        <div className='chart'>
 
         </div>
       </div>

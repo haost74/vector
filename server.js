@@ -44,9 +44,9 @@ if (isDeveloping) {
 }
 
 app.post('/endpoint', function(req, res){
-  const res_data = JSON.stringify(req.body.from);
+  const res_data = JSON.stringify(req.body);
   console.log(res_data);
-  res.send(req.body.from);
+  res.send(req.body);
 });
 
 
@@ -54,5 +54,5 @@ app.listen(port, '0.0.0.0', function onStart(err) {
   if (err) {
     console.log(err);
   }
-  console.info('==> 🌎 Listening on port %s. Open up http://0.0.0.0:%s/ in your browser.', port, port);
+  console.info('==> ?? Listening on port %s. Open up http://0.0.0.0:%s/ in your browser.', port, port);
 });
