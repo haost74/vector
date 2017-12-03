@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+html, body{
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.app {
+  background-color: white;
+  height: 50px;
+  border-bottom: 1.1px solid #3300CC;
+  display: flex;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+.bap {
+  background-color: red;
+  height: 25px;
+}
+
+.buttonStyle{
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+    background-color: white;
+    color: black;
+    border: 1.1px solid #3300CC;  /*Green */
+}
+
+.buttonStyle:hover {
+transform: scale(1.1);
+}
+
+
+p{
+  display: flex;
+  padding: 0px;
+  margin-right: 15px;
+}
+
+label{
+  margin-top: 12px;
+  margin-right: 15px;
+}
+
+
+ input {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.2rem;
+  display: block;
+  padding: 0.5rem 1rem;
+
+}
+
+.combobox{
+  margin-right: 15px;
+  width: 150px;
+}
+
+.canva{
+  width: 100vw;
+  height: 100vh;
+  border-top: 1.1px solid #3300CC;
+}
